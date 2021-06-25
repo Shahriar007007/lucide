@@ -1,0 +1,214 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family:'Poppins', sans-serif; 
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Poppins', sans-serif;
+}
+a,a:hover{
+	text-decoration: none;
+}
+
+.title{
+	width: 100%;
+	padding: 0px 0px 40px;
+}
+.title h6{
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #008ed6;
+	letter-spacing: 2px;
+}
+.title h1{
+	font-size: 52px;
+	font-weight: 600;
+	color: #000;
+}
+
+
+
+
+	.header{
+	width: 100%;
+	background: url("../images/back.png") center top no-repeat;
+	background-size: cover;
+}
+
+.header .bg-light {
+    background-color: transparent!important;
+}
+.navbar-brand img{
+	width: 50px;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show >.nav-link{
+	color: #fff;
+	background: url(../images/blue 2.png) center bottom no-repeat;
+	background-size: auto;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	font-weight: 600;
+	margin: 0px 0px 0px 15px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover , .navbar-light .navbar-nav .nav-link:focus {
+
+	color: #08c;
+	background: url(../images/blue 2.png) center bottom no-repeat;
+	background-size: auto;
+}
+.banner{
+	width: 100%;
+	padding: 100px 0px;
+}
+ .inner-banner{
+	width: 60%;
+}
+ .inner-banner h6{
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #008ed6;
+	letter-spacing: 2px;
+
+}
+ .inner-banner h1{
+	font-size: 52px;
+	font-weight: 600;
+	color: #fff;
+	margin-bottom: 20px;
+
+}
+ .inner-banner p{
+	font-size: 14px;
+	font-weight: 400;
+	color: #777;
+	margin-bottom: 20px;
+}
+.inner-button{
+	width: 100%;
+	margin: 50px 0px 0px;
+}
+.inner-button .btn-primary{
+	padding: 15px 25px;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 2px;
+	color: #fff;
+	background: #008ed6;
+	border: 1px solid #008ed6;
+	border-radius: 3px;
+	margin-right: 15px;
+}
+.inner-button .btn-primary:hover , .inner-button .btn-primary:focus{
+	
+	color: #008ed6;
+	background: transparent;
+	border: 1px solid #008ed6;
+}
+.inner-button .btn-secondary{
+	padding: 15px 25px;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 2px;
+	color: #fff;
+	background: transparent;
+	border: 1px solid #fff;
+	border-radius: 3px;
+}
+.inner-button .btn-secondary:hover , .inner-button .btn-secondary:focus{
+	
+	color: #fff;
+	background:#008ed6 ;
+	border: 1px solid #008ed6;
+}
+
+
+.feature{
+	width: 100%;
+	padding: 80px 0px;
+}
+.feature .title{
+	text-align: center;
+}
+.inner-feature{
+	width: 100%;
+	padding: 30px 25px;
+	text-align: center;
+}
+.inner-feature .icon-box{
+	width: 90px;
+	height: 90px;
+	text-align: center;
+	margin: 0px auto 25px;
+}
+.inner-feature h4{
+	font-size: 24px;
+	font-weight: 400;
+	color: #000;
+}
+.inner-feature p{
+	font-size: 14px;
+	font-weight: 400;
+	color: #777;
+	padding: 0px 15px;
+	
+}
+
+
+.about{
+	width: 100%;
+	padding: 80px 0px;
+	border-top: 1px solid #eee;
+}
+.about .title h1{
+	font-size: 42px
+
+}
+.about .title {
+	margin: 45px 0px 0px;
+	padding: 0px 0px 20
+
+}
+.about p{
+	font-size: 16px;
+	line-height: 26px;
+	color: #777;
+
+}
+.about ul{
+	padding: 0px;
+	margin: 20px 0px 0px;
+}
+.about ul li{
+	list-style: none;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 28px;
+	margin: 0px 0px 10px 0px;
+}
+.about ul li img{
+	width: 13px;
+	height: 13px;
+	margin-right: 10px;
+}
+
+
+.iphone {
+	width: 100%;
+	padding: 80px 0px;
+}
